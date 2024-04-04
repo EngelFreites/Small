@@ -19,19 +19,19 @@ npm run dev
 
 The following commit conventions are used:
 
-feat: For new features.
-fix: For bug fixes.
-docs: For changes in documentation.
-style: For changes that do not affect the meaning of the code (white space, formatting, etc.).
-refactor: For code changes that neither fix errors nor add functionalities.
-test: For adding or modifying tests.
-chore: For project maintenance tasks.
+- feat: For new features.
+- fix: For bug fixes.
+- docs: For changes in documentation.
+- style: For changes that do not affect the meaning of the code (white space, formatting, etc.).
+- refactor: For code changes that neither fix errors nor add functionalities.
+- test: For adding or modifying tests.
+- chore: For project maintenance tasks.
 
 Each commit should start with one of these keywords, followed by a brief imperative present tense message describing the change made. For example:
 
-feat: Add authentication function
-fix: Correct error in error handling
-docs: Update API documentation
+- feat: Add authentication function
+- fix: Correct error in error handling
+- docs: Update API documentation
 
 # Contribution
 
