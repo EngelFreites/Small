@@ -1,33 +1,83 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <h1>
+        Build stronger digital connections
+      </h1>
+      <p>
+        Use our URL shortener, QR Codes, and Link-in-bio pages 
+        to engage your audience and connect them to the right information. 
+        Build, edit, and track everything
+        inside the Bitly Connections Platform.  
+      </p>
+
+      <button>
+        Get strted for Free
+      </button>
+
+      <h2>
+        Sign up for free and discover exclusive  content
+      </h2>
+      <h2>
+        Don't miss out on this opportunity!
+      </h2>
+
+      <h2>
+        Smaller link 
+      </h2>
+      <form>
+        <input placeholder='put your link'/>
+        <button> Get it</button>
+      </form>
+      <button> Smaller </button>
+      <button> Code Qr </button>
+
+      <h2> Our Benefits </h2>
+
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <h2>Easy to use</h2>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Shorter links are easier to share and remember, 
+          making it easier to communicate across different
+          platforms and contexts.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <div>
+        <h2>Monitoring/analysis</h2>
+        <p>
+        We offer analysis tools that allow 
+        you to track how many times 
+        the link is clicked, when and from where, 
+        providing valuable information
+        </p>
+      </div>
+
+      
+      <div>
+        <h2>Space optimization</h2>
+        <p>
+          On platforms with limits of
+          characters, like Twitter, short links allow 
+          you to make the most of the available space.
+        </p>
+      </div>
+
+      
+      <div>
+        <h2>Aesthetics/cleanliness</h2>
+        <p>
+          Short links give a neater, 
+          cleaner look in text messages, 
+          social media, and emails, 
+          preventing long links from cluttering content.
+        </p>
+      </div>
+
+
+
+
     </>
   )
 }
