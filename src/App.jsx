@@ -83,11 +83,6 @@ function App() {
           </p>
         </div>
       </Content>
-
-
-
-
-
     </>
   )
 }
