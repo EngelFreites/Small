@@ -1,0 +1,24 @@
+ 
+.navbar{
+   margin: 0px;
+   height: 90px; 
+   width: 1515px;
+   background-color: rgb(47, 45, 45);
+    
+}
+
+ 
+ 
+     
+.nav a{
+  margin-left: 40px;
+  font-family: "Outfit", sans-serif;
+  font-size: 20PX;
+  color:azure;
+     
+}
+ .link{
+  margin-left: 250px;
+ }
+ 
+ 
