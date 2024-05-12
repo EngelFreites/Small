@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
-  padding-left: var(--container-padding);
-  padding-right: var(--container-padding);
+  /* padding-left: var(--container-padding); */
+   padding-right: var(--container-padding);  
 }
 .content{
   max-width: var(--maxwidth);

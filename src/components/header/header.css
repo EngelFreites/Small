@@ -2,13 +2,18 @@
 .navbar{
    margin: 0px;
    height: 90px; 
-   width: 1515px;
+   width: 1535px;
    background-color: rgb(47, 45, 45);
     
 }
 
  
- 
+ .brand{
+  margin-left: auto;
+  font-family:  "Calistoga", serif;
+  font-size: 60PX;
+  color: #8C52FF
+ }
      
 .nav a{
   margin-left: 40px;
@@ -18,7 +23,11 @@
      
 }
  .link{
-  margin-left: 250px;
+  margin-left: 400px;
+ }
+ .link2{
+  padding: 0%;
+  margin-left: 100px;
  }
  
  
